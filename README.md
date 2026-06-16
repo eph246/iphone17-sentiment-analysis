@@ -35,6 +35,11 @@ The dominant barrier to iPhone 17 adoption in Indonesia was **price sensitivity*
 ```
 iphone17-sentiment/
 │
+├── data/
+│   ├── dataset_raw_iphone17.csv           # Raw scraped data
+│   ├── dataset_cleaned_iphone17.csv       # Cleaned data
+│   └── dataset_labeled_iphone17.csv       # Labeled data
+│
 ├── notebooks/
 │   ├── 01_crawling_youtube_data.ipynb     # Data collection via YouTube Data API v3
 │   ├── 02_data_preprocessing.ipynb        # Cleaning, normalization, stopword, stemming
@@ -43,7 +48,7 @@ iphone17-sentiment/
 │   ├── 05_modelling_evaluasi.ipynb        # Model training & evaluation (NB, RF, KNN)
 │   └── 06_evaluasi_lanjutan.ipynb         # Cross-validation, confusion matrix, word cloud
 │
-├── paper/
+├── docs/
 │   └── iphone17-sentiment.pdf             # Published journal article (JOISIE 2025)
 │
 ├── requirements.txt                       # Python dependencies
